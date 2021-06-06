@@ -7,7 +7,9 @@ sattre文件夹主要是用vue2写前端界面
 
 
 cd server 
+
 npm i
+
 npm run dev
 
 注意在npm run dev之前别忘记打开mongodb数据库服务了
@@ -15,7 +17,9 @@ npm run dev
 
 
 cd sattre
+
 npm i
+
 npm run serve
 
 
