@@ -1,4 +1,4 @@
-# my-first-fullStack
+# my-fullStack
 这是我建立的一个全栈项目，主要用于练习,技术栈用到了vue2+koa2+mongoose
 
 server文件夹主要是用koa2框架写后端接口
