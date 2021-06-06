@@ -1,17 +1,22 @@
 <template>
   <div id="app">
-    <Loginview />
+    <router-link to="./login"></router-link>
+    <router-link to="./video"></router-link>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import Loginview from "./view/Loginview.vue";
+
+
 
 export default {
   name: "App",
   components: {
-    Loginview,
+
   },
+  
+  
 };
 </script>
 
@@ -19,4 +24,6 @@ export default {
    html,body,#app{
     height: 100%;
   }
+
+  
 </style>

@@ -26,6 +26,7 @@
 
 <script>
 import "bootstrap/dist/css/bootstrap.min.css";
+import router from '../route.js'
 import axios from "axios"
 export default {
   name: "Loginview",
@@ -41,9 +42,9 @@ export default {
         username:this.username,
         password:this.password
       })
-      console.log(res.data.errno);
+      console.log(res.data);
      if(res.data.errno == 0){
-       alert('登录成功')
+       router.push("./video")
        return 
      }
      alert('登录失败')
