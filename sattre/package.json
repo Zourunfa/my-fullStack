@@ -12,7 +12,10 @@
     "bootstrap": "^3.4.1",
     "core-js": "^3.6.5",
     "eslint-plugin-prettier": "^3.4.0",
+    "plugin-afbzd-msg": "^0.1.0",
+    "plugin-demo-msg": "^0.1.0",
     "vue": "^2.6.11",
+    "vue-msg-start-kn": "^0.1.0",
     "vue-router": "^3.5.1",
     "vue-video-player": "^5.0.2",
     "vuex": "^3.6.2"
@@ -26,6 +29,7 @@
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
     "prettier": "^2.2.1",
+    "vue-particles": "^1.0.9",
     "vue-template-compiler": "^2.6.11"
   }
 }
