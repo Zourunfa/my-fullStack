@@ -1,16 +1,7 @@
 <template>
   <div class="video-list">
-    <div class="box">
-      <!-- <Video :url="data.url" /> -->
-    </div>
-    <div class="box">
-      <!-- <Video :url="data.url" /> -->
-    </div>
-    <div class="box">
-      <!-- <Video :url="data.url" /> -->
-    </div>
-    <div class="box">
-      <!-- <Video :url="data.url" /> -->
+    <div v-for="data in urls" :key="data.id">
+      <Video :url="data.url" />
     </div>
   </div>
 </template>
@@ -26,10 +17,4 @@ export default {
 };
 </script>
 
-<style>
-.box {
-  height: 200px;
-  width: 400px;
-  background-color: skyblue;
-}
-</style>
+<style></style>
